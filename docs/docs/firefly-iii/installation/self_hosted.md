@@ -51,7 +51,7 @@ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/loca
 Verify the installation of composer using the following command.
 
 ```bash
-composer -v
+composer -V
 ```
 
 If you have no sudo rights, you can simply [download composer](https://getcomposer.org/download/) with the instructions under the header "manual download". Use `php composer.phar` instead of `composer` in the instructions ahead.
